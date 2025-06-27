@@ -1,0 +1,47 @@
+# Arquivos de dados pesados (rasters)
+*.tif
+*.tiff
+
+# Modelos treinados e scalers
+*.pkl
+
+# Arquivos temporários de processamento
+variaveis_usadas.txt
+metadados_variaveis.md
+
+# Imagens geradas (podem ser regeneradas)
+*.png
+
+# Dados de entrada (muito pesados para Git)
+clima_atual/
+clima_futuro/
+downloads/
+BR_UF_2024/
+ocorrencias.csv
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# Ambientes virtuais Python
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log 

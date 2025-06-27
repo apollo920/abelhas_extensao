@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="ada06364-2436-4f48-ad78-7033f7903fd0"  system="http://gbif.org" scope="system"
+xml:lang="pt">
+    <dataset>
+        <alternateIdentifier>10.15468/fkx59c</alternateIdentifier>
+        <alternateIdentifier>ada06364-2436-4f48-ad78-7033f7903fd0</alternateIdentifier>
+        <alternateIdentifier>http://ipt1.cria.org.br/ipt/resource?r=rpsp</alternateIdentifier>
+        <title>RPSP - Coleção Entomológica Prof. J.M.F. Camargo, FFCLRP/USP</title>
+        <creator>
+            <individualName>
+                <givenName>Eduardo</givenName>
+                <surName>A. B. Almeida</surName>
+            </individualName>
+            <organizationName>Universidade de São Paulo - Campus Ribeirão Preto (USP-RP)</organizationName>
+            <positionName>Curador</positionName>
+            <address>
+                <deliveryPoint>Av. Bandeirantes, 3900; Departamento de Biologia; Faculdade de Filosofia Ciências e Letras; Universidade de São Paulo; Bairro Monte Alegre</deliveryPoint>
+                <city>Ribeirão Preto</city>
+                <administrativeArea>São Paulo</administrativeArea>
+                <postalCode>14040-901</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>eduardo@ffclrp.usp.br</electronicMailAddress>
+            <onlineUrl>https://specieslink.net/col/34/</onlineUrl>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Eduardo</givenName>
+                <surName>A. B. Almeida</surName>
+            </individualName>
+            <organizationName>Universidade de São Paulo - Campus Ribeirão Preto (USP-RP)</organizationName>
+            <positionName>Curador</positionName>
+            <address>
+                <deliveryPoint>Av. Bandeirantes, 3900; Departamento de Biologia; Faculdade de Filosofia Ciências e Letras; Universidade de São Paulo; Bairro Monte Alegre</deliveryPoint>
+                <city>Ribeirão Preto</city>
+                <administrativeArea>São Paulo</administrativeArea>
+                <postalCode>14040-901</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>eduardo@ffclrp.usp.br</electronicMailAddress>
+            <onlineUrl>https://specieslink.net/col/34/</onlineUrl>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <surName>speciesLink Network</surName>
+            </individualName>
+            <organizationName>Centro de Referência em Informação Ambiental, CRIA</organizationName>
+            <positionName>Network</positionName>
+            <address>
+                <deliveryPoint>Rua João Carlos do Amaral, 500, casa 01</deliveryPoint>
+                <city>Campinas</city>
+                <administrativeArea>São Paulo</administrativeArea>
+                <postalCode>13070-111</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>helpdesk@cria.org.br</electronicMailAddress>
+            <onlineUrl>https://specieslink.net</onlineUrl>
+            <role>CUSTODIAN_STEWARD</role>
+        </associatedParty>
+        <pubDate>
+                2025-05-06
+        </pubDate>
+        <language>PORTUGUESE</language>
+        <abstract>
+            <para>A Coleção Entomológica “Prof. J.M.F. Camargo” (RPSP), sediada no Departamento de Biologia da FFCLRP/USP, começou a ser montada em 1965. Desde então, como resultado de várias expedições ao Amazonas e demais espaços neotropicais, e intercâmbio com museus do Brasil e exterior, foi montado o mais completo acervo de Meliponini Neotropicais (&amp;#34;abelhas sem ferrão&amp;#34;). A coleção inclui cerca de 250.000 espécimes de abelhas, dos quais  mais de 150.000 são Meliponini. A maior parte dos espécimes encontra-se montada em alfinetes, e milhares de exemplares encontram-se preservados em fixador (incluindo larvas, jovens e adultos, operárias, machos e rainhas), representando cerca de 1000 ninhos estudados, além de constituir a única coleção com obras construídas pelas abelhas (peças de ninhos e cerca de 5.500 slides sobre a biologia do grupo). A Coleção abriga também um excelente acervo de abelhas em geral, incluindo material de estudos sobre estrutura de comunidades (mais de 30.000 espécimes, contendo dados sobre fenologia), obtido em coletas sistemáticas em vários ecossistemas (campos rupestres, cerrados, desertos, ambientes modificados, etc.). A Coleção inclui mais de 1000 espécimes tipos, dos quais 81 são tipos primários.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Specimen</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Attribution Non Commercial 4.0 International</licenseName>
+            <url>https://spdx.org/licenses/CC-BY-NC-4.0.html</url>
+            <identifier>CC-BY-NC-4.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="information">https://specieslink.net/col/34</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">http://ipt1.cria.org.br/ipt/archive.do?r=rpsp</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">http://ipt1.cria.org.br/ipt/archive.do?r=rpsp</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Predominantemente Brasil</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-74</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-30</eastBoundingCoordinate>
+                    <northBoundingCoordinate>5.27</northBoundingCoordinate>
+                    <southBoundingCoordinate>-33.75</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <taxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>Kingdom</taxonRankName>
+                    <taxonRankValue>Animalia</taxonRankValue>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>monthly</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Eduardo</givenName>
+                <surName>A. B. Almeida</surName>
+            </individualName>
+            <organizationName>Universidade de São Paulo - Campus Ribeirão Preto (USP-RP)</organizationName>
+            <positionName>Curador</positionName>
+            <address>
+                <deliveryPoint>Av. Bandeirantes, 3900; Departamento de Biologia; Faculdade de Filosofia Ciências e Letras; Universidade de São Paulo; Bairro Monte Alegre</deliveryPoint>
+                <city>Ribeirão Preto</city>
+                <administrativeArea>São Paulo</administrativeArea>
+                <postalCode>14040-901</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>eduardo@ffclrp.usp.br</electronicMailAddress>
+            <onlineUrl>https://specieslink.net/col/34/</onlineUrl>
+        </contact>
+
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-05-10T14:50:45Z</dateStamp>
+                <citation identifier="https://specieslink.net/col/34">A. B. Almeida E (2025). RPSP - Coleção Entomológica Prof. J.M.F. Camargo, FFCLRP/USP. Version 1.74. Faculdade de Filosofia, Ciências e Letras de Ribeirão Preto (FFCLRP), Universidade de São Paulo (USP). Occurrence dataset https://doi.org/10.15468/fkx59c accessed via GBIF.org on 2025-05-10.</citation>
+                <resourceLogoUrl>https://specieslink.net/media/col/34/logo/std.png</resourceLogoUrl>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>

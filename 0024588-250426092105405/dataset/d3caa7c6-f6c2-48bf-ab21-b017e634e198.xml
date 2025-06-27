@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="d3caa7c6-f6c2-48bf-ab21-b017e634e198"  system="http://gbif.org" scope="system"
+xml:lang="en">
+    <dataset>
+        <alternateIdentifier>10.15468/tpauh2</alternateIdentifier>
+        <alternateIdentifier>d3caa7c6-f6c2-48bf-ab21-b017e634e198</alternateIdentifier>
+        <alternateIdentifier>https://ipt.sibbr.gov.br/sibbr/resource?r=prima_ambiental_cear_resgate_fauna_01</alternateIdentifier>
+        <title>ENGIE | Fauna&apos;s Rescue Program - Santo Agostinho Wind Farm, Rio Grande do Norte - Brazil</title>
+        <creator>
+            <individualName>
+                <givenName>Piera</givenName>
+                <surName>Ostroski</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Bióloga</positionName>
+            <address>
+                <deliveryPoint>R. Lauro Linhares, 728, sala 314, Trindade</deliveryPoint>
+                <city>Florianópolis</city>
+                <administrativeArea>Santa Catarina</administrativeArea>
+                <postalCode>88036-001</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>piera@primaambiental.com.br</electronicMailAddress>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Edson</givenName>
+                <surName>Junior</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Biólogo</positionName>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Lainne</givenName>
+                <surName>Santos</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Bióloga</positionName>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Letícia</givenName>
+                <surName>D&apos;avila</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Bióloga</positionName>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Lucas</givenName>
+                <surName>Pacheco</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Biólogo</positionName>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Malu</givenName>
+                <surName>Neres</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Bióloga</positionName>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Nayara</givenName>
+                <surName>Bastos</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Bióloga</positionName>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Rafael</givenName>
+                <surName>Grisostenes</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Biólogo</positionName>
+        </creator>
+        <creator>
+            <individualName>
+                <givenName>Thiago</givenName>
+                <surName>Acioli</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Veterinário</positionName>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>Piera</givenName>
+                <surName>Ostroski</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Bióloga</positionName>
+            <address>
+                <deliveryPoint>R. Lauro Linhares, 728, sala 314, Trindade</deliveryPoint>
+                <city>Florianópolis</city>
+                <administrativeArea>Santa Catarina</administrativeArea>
+                <postalCode>88036-001</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>piera@primaambiental.com.br</electronicMailAddress>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <givenName>SiBBr</givenName>
+                <surName>Brasil</surName>
+            </individualName>
+            <electronicMailAddress>sibbr.brasil@gmail.com</electronicMailAddress>
+            <role>USER</role>
+        </associatedParty>
+        <pubDate>
+                2024-12-12
+        </pubDate>
+        <language>PORTUGUESE</language>
+        <abstract>
+            <para>This worksheet is related to the Fauna&amp;#39;s Rescue Program, which was executed during Santo Agostinho&amp;#39;s Wind Farm implementation, at Pedro Avelino and Lajes, Rio Grande do Norte, Brazil. Data from july/2021 until december/2023.
+
+Esta planilha está relacionada ao Programa de Resgate da Fauna, que foi executado durante a implementação do Conjunto Eólico Santo Agostinho, em Pedro Avelino e Lajes, Rio Grande do Norte, Brasil. Dados de julho/2021 a dezembro/2023.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Observation</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Attribution Non Commercial 4.0 International</licenseName>
+            <url>https://spdx.org/licenses/CC-BY-NC-4.0.html</url>
+            <identifier>CC-BY-NC-4.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="information">https://collectory.sibbr.gov.br/collectory/public/show/dr1115</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">https://ipt.sibbr.gov.br/sibbr/archive.do?r=prima_ambiental_cear_resgate_fauna_01</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Santo Agostinho Wind Farm, at Pedro Avelino and Lajes, Rio Grande do Norte, Brazil (Caatinga Biome).
+
+Conjunto Eólico Santo Agostinho, em Pedro Avelino e Lajes, Rio Grande do Norte, Brasil (Bioma Caatinga).</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-36.92</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-35.206</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-5.178</northBoundingCoordinate>
+                    <southBoundingCoordinate>-6.343</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>unkown</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>Piera</givenName>
+                <surName>Ostroski</surName>
+            </individualName>
+            <organizationName>Prima Ambiental</organizationName>
+            <positionName>Bióloga</positionName>
+            <address>
+                <deliveryPoint>R. Lauro Linhares, 728, sala 314, Trindade</deliveryPoint>
+                <city>Florianópolis</city>
+                <administrativeArea>Santa Catarina</administrativeArea>
+                <postalCode>88036-001</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>piera@primaambiental.com.br</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <para>Cada animal teve sua localização registrada em campo por biólogos ou veterinários, tais registros são então tabelados.
+
+Each animal had its location recorded in the field by biologists or veterinarians, and these records are then tabulated.</para>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>A área se encontra inserida no bioma Caatinga, sendo uma fitofisionomia de Savana-estépica arborizada com características de degradação avançada e áreas antropizadas.
+
+The area is located within the Caatinga biome, characterized by an arboreal Steppe-savanna phytophysiognomy with signs of advanced degradation and anthropized regions.</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>O resgate era feito com a metodologia de busca ativa através de caminhamentos aleatórios antes e após a passagem do maquinário, além de registros feitos em deslocamentos.
+
+The fauna&apos;s rescue was carried out using the active search methodology through random walkovers before and after the passage of machinery, as well as records made during displacements.</para>
+                </samplingDescription>
+            </sampling>
+            <qualityControl>
+                <description>
+                    <para>Mensalmente foram gerados mapas com os registros do período para conferência de sua geolocalização.
+
+Maps were generated monthly with the records from that period to verify their geolocation.</para>
+                </description>
+            </qualityControl>
+        </methods>
+
+            <project id="CESA">
+                <title>Conjunto Eólico Santo Agostinho</title>
+                <personnel>
+                    <individualName>
+                    <givenName>Piera</givenName>
+                    <surName>Ostroski</surName>
+                    </individualName>
+                    <role>ADMINISTRATIVE_POINT_OF_CONTACT</role>
+                </personnel>
+                <abstract>
+                    <para>Conjunto Eólico localizado entre os municípios de Lajes e Pedro Avelino, estado do Rio Grande do Norte, Brasil.
+
+Wind Farm located between the municipalities of Lajes and Pedro Avelino, in the state of Rio Grande do Norte, Brazil.</para>
+                </abstract>
+                <funding>
+                    <para>ENGIE</para>
+                </funding>
+                <studyAreaDescription>
+                    <descriptor name="generic" citableClassificationSystem="false">
+                        <descriptorValue>A área se encontra inserida no bioma Caatinga, sendo uma fitofisionomia de Savana-estépica arborizada com características de degradação avançada e áreas antropizadas.
+
+The area is located within the Caatinga biome, characterized by an arboreal Steppe-savanna phytophysiognomy with signs of advanced degradation and anthropized regions.</descriptorValue>
+                    </descriptor>
+                </studyAreaDescription>
+            </project>
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-05-10T14:50:45Z</dateStamp>
+                <citation>Ostroski P, Junior E, Santos L, D&apos;avila L, Pacheco L, Neres M, Bastos N, Grisostenes R, Acioli T (2024). ENGIE | Fauna&apos;s Rescue Program - Santo Agostinho Wind Farm, Rio Grande do Norte - Brazil. Version 1.2. ENGIE. Occurrence dataset https://doi.org/10.15468/tpauh2 accessed via GBIF.org on 2025-05-10.</citation>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>

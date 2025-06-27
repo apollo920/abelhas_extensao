@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<eml:eml xmlns:eml="https://eml.ecoinformatics.org/eml-2.2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="https://eml.ecoinformatics.org/eml-2.2.0 https://rs.gbif.org/schema/eml-gbif-profile/1.3/eml.xsd"
+packageId="7683d8bd-359c-4055-9e44-1d81ae0253fe"  system="http://gbif.org" scope="system"
+xml:lang="pt">
+    <dataset>
+        <alternateIdentifier>10.15468/fnppos</alternateIdentifier>
+        <alternateIdentifier>7683d8bd-359c-4055-9e44-1d81ae0253fe</alternateIdentifier>
+        <alternateIdentifier>http://ipt1.cria.org.br/ipt/resource?r=zuec-hym</alternateIdentifier>
+        <title>ZUEC-HYM - Coleção de Hymenoptera do Museu de Zoologia da UNICAMP</title>
+        <creator>
+            <individualName>
+                <givenName>André</givenName>
+                <surName>Victor Lucci de Freitas</surName>
+            </individualName>
+            <organizationName>Universidade Estadual de Campinas (UNICAMP)</organizationName>
+            <positionName>Curador</positionName>
+            <address>
+                <deliveryPoint>Museu de Zoologia, Instituto de Biologia da UNICAMP; Rua Albert Einstein; CxP 6109;</deliveryPoint>
+                <city>Campinas</city>
+                <administrativeArea>São Paulo</administrativeArea>
+                <postalCode>13083-970</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>baku@unicamp.br</electronicMailAddress>
+            <onlineUrl>http://www.ib.unicamp.br/museu_zoologia</onlineUrl>
+        </creator>
+        <metadataProvider>
+            <individualName>
+                <givenName>André</givenName>
+                <surName>Victor Lucci de Freitas</surName>
+            </individualName>
+            <organizationName>Universidade Estadual de Campinas (UNICAMP)</organizationName>
+            <positionName>Curador</positionName>
+            <address>
+                <deliveryPoint>Museu de Zoologia, Instituto de Biologia da UNICAMP; Rua Albert Einstein; CxP 6109;</deliveryPoint>
+                <city>Campinas</city>
+                <administrativeArea>São Paulo</administrativeArea>
+                <postalCode>13083-970</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>baku@unicamp.br</electronicMailAddress>
+            <onlineUrl>http://www.ib.unicamp.br/museu_zoologia</onlineUrl>
+        </metadataProvider>
+        <associatedParty>
+            <individualName>
+                <surName>speciesLink Network</surName>
+            </individualName>
+            <organizationName>Centro de Referência em Informação Ambiental, CRIA</organizationName>
+            <positionName>Network</positionName>
+            <address>
+                <deliveryPoint>Rua João Carlos do Amaral, 500, casa 01</deliveryPoint>
+                <city>Campinas</city>
+                <administrativeArea>São Paulo</administrativeArea>
+                <postalCode>13070-111</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>helpdesk@cria.org.br</electronicMailAddress>
+            <onlineUrl>https://specieslink.net</onlineUrl>
+            <role>CUSTODIAN_STEWARD</role>
+        </associatedParty>
+        <pubDate>
+                2025-05-05
+        </pubDate>
+        <language>PORTUGUESE</language>
+        <abstract>
+            <para>A coleção de Hymenoptera do Museu de Zoologia “Prof. Adão José Cardoso” da Universidade Estadual de Campinas (UNICAMP) conta com material conservado em via úmida (álcool 70%) e seca. Os exemplares são provenientes principalmente dos estados de São Paulo e Santa Catarina (Sudeste e Sul do Brasil). O processo de catalogação e informatização da coleção está em andamento e está sendo utilizado o gerenciador de banco de dados Microsoft Excel. A maior parte do acervo constitui a coleção científica, destinada principalmente ao atendimento de pesquisadores interessados no estudo dos Hymenoptera.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Specimen</keyword>
+            <keywordThesaurus>GBIF Dataset Subtype Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_subtype.xml</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>Occurrence</keyword>
+            <keywordThesaurus>GBIF Dataset Type Vocabulary: http://rs.gbif.org/vocabulary/gbif/dataset_type_2015-07-10.xml</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under a <ulink url="http://creativecommons.org/licenses/by-nc/4.0/legalcode"><citetitle>Creative Commons Attribution Non Commercial (CC-BY-NC) 4.0 License</citetitle></ulink>.</para>
+        </intellectualRights>
+        <licensed>
+            <licenseName>Creative Commons Attribution Non Commercial 4.0 International</licenseName>
+            <url>https://spdx.org/licenses/CC-BY-NC-4.0.html</url>
+            <identifier>CC-BY-NC-4.0</identifier>
+        </licensed>
+        <distribution scope="document">
+            <online>
+                <url function="information">https://specieslink.net/col/397</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">http://ipt1.cria.org.br/ipt/archive.do?r=zuec-hym</url>
+            </online>
+        </distribution>
+        <distribution scope="document">
+            <online>
+                <url function="download">http://ipt1.cria.org.br/ipt/archive.do?r=zuec-hym</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Predominantemente Brasil</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>-74</westBoundingCoordinate>
+                    <eastBoundingCoordinate>-30</eastBoundingCoordinate>
+                    <northBoundingCoordinate>5.27</northBoundingCoordinate>
+                    <southBoundingCoordinate>-33.75</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <taxonomicCoverage>
+                <taxonomicClassification>
+                    <taxonRankName>Kingdom</taxonRankName>
+                    <taxonRankValue>Animalia</taxonRankValue>
+                </taxonomicClassification>
+            </taxonomicCoverage>
+        </coverage>
+        <maintenance>
+            <description>
+                <para></para>
+            </description>
+            <maintenanceUpdateFrequency>monthly</maintenanceUpdateFrequency>
+        </maintenance>
+        <contact>
+            <individualName>
+                <givenName>André</givenName>
+                <surName>Victor Lucci de Freitas</surName>
+            </individualName>
+            <organizationName>Universidade Estadual de Campinas (UNICAMP)</organizationName>
+            <positionName>Curador</positionName>
+            <address>
+                <deliveryPoint>Museu de Zoologia, Instituto de Biologia da UNICAMP; Rua Albert Einstein; CxP 6109;</deliveryPoint>
+                <city>Campinas</city>
+                <administrativeArea>São Paulo</administrativeArea>
+                <postalCode>13083-970</postalCode>
+                <country>BRAZIL</country>
+            </address>
+            <electronicMailAddress>baku@unicamp.br</electronicMailAddress>
+            <onlineUrl>http://www.ib.unicamp.br/museu_zoologia</onlineUrl>
+        </contact>
+
+    </dataset>
+
+    <additionalMetadata>
+        <metadata>
+            <gbif>
+                <dateStamp>2025-05-10T14:50:44Z</dateStamp>
+                <citation identifier="https://specieslink.net/col/397">Victor Lucci de Freitas A (2025). ZUEC-HYM - Coleção de Hymenoptera do Museu de Zoologia da UNICAMP. Version 1.102. Universidade Estadual de Campinas - Instituto de Biologia. Occurrence dataset https://doi.org/10.15468/fnppos accessed via GBIF.org on 2025-05-10.</citation>
+                <resourceLogoUrl>http://ipt1.cria.org.br/ipt/logo.do?r=zuec-hym</resourceLogoUrl>
+            </gbif>
+        </metadata>
+    </additionalMetadata>
+    </eml:eml>

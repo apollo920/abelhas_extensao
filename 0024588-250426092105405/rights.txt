@@ -1,0 +1,68 @@
+Dataset: Coleção Zoológica de Referência da Universidade Federal de Mato Grosso do Sul - Hymenoptera (ZUFMS-HYM) 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: DSEC - Coleção Entomológica do Depto. de Sistemática e Ecologia 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Snow Entomological Museum Collection 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Illinois Natural History Survey Insect Collection 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Bee Biology and Systematics Laboratory 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: DZUP-Hymenoptera - Coleção Entomológica Pe. Jesus Santiago Moure (Hymenoptera) 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Natural History Museum (London) Collection Specimens 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: The Albert J. Cook Arthropod Research Collection 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: Projeto Conexão Mata Atlântica - Monitoramento Ecossistêmico - Fauna e Flora - Rio de Janeiro - Campanha 06 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: ZUEC-HYM - Coleção de Hymenoptera do Museu de Zoologia da UNICAMP 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Natural History Museum Rotterdam - Specimens 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: MCTP-Insetos - Coleção de Insetos 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: NMNH Extant Specimen Records (USNM, US) 
+Rights as supplied: http://creativecommons.org/publicdomain/zero/1.0/legalcode
+Dataset: DZUB - Coleção Entomológica da Universidade de Brasília 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: MCP - Coleção de Abelhas 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Projeto Conexão Mata Atlântica - Monitoramento Ecossistêmico - Fauna e Flora - Minas Gerais - Campanha 06 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: International Barcode of Life project (iBOL) 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: ZFMK Hymenoptera collection 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: CEPANN - Coleção Entomológica Paulo Nogueira-Neto - IB/USP 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Projeto Conexão Mata Atlântica - Monitoramento Ecossistêmico - Fauna e Flora - São Paulo - Campanha 02 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Projeto Conexão Mata Atlântica - Monitoramento Ecossistêmico - Fauna e Flora - Minas Gerais - Campanha 01 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: ENGIE | Fauna's Rescue Program - Santo Agostinho Wind Farm, Rio Grande do Norte - Brazil 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Coleção Entomológica Padre Jesus Santiago Moure (DZUP) - Hymenoptera 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Museu Paraense Emilio Goeldi - Hymenoptera Collection 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: INSDC Sequences 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Projeto Conexão Mata Atlântica - Monitoramento Ecossistêmico - Fauna e Flora - São Paulo - Campanha 06 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Laboratório de Ecologia e Biogeografia de Insetos da Caatinga 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: RPSP - Coleção Entomológica Prof. J.M.F. Camargo, FFCLRP/USP 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Projeto Conexão Mata Atlântica - Monitoramento Ecossistêmico - Fauna e Flora - São Paulo - Campanha 01 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: Projeto Conexão Mata Atlântica - Monitoramento Ecossistêmico - Fauna e Flora - São Paulo - Campanha 04 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: NHMD Entomology Collection 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: hymenoptera 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
+Dataset: iNaturalist Research-grade Observations 
+Rights as supplied: http://creativecommons.org/licenses/by-nc/4.0/legalcode
+Dataset: Coleção Entomológica Moure e Costa 
+Rights as supplied: http://creativecommons.org/licenses/by/4.0/legalcode
