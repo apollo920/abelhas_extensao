@@ -13,11 +13,7 @@ metadados_variaveis.md
 *.png
 
 # Dados de entrada (muito pesados para Git)
-clima_atual/
-clima_futuro/
-downloads/
-BR_UF_2024/
-ocorrencias.csv
+
 
 # Arquivos do sistema
 .DS_Store
