@@ -13,6 +13,29 @@ Este projeto implementa um workflow completo para:
 
 ## 🛠️ Requisitos
 
+### Clonando o Repositório
+
+Este projeto usa Git LFS para gerenciar arquivos de dados climáticos grandes. Antes de clonar:
+
+**Linux:**
+```bash
+sudo apt install git-lfs  # Ubuntu/Debian
+git lfs install
+git clone <url-do-repositorio>
+```
+
+**Windows:**
+Baixe e instale Git LFS de [git-lfs.github.com](https://git-lfs.github.com/), depois:
+```bash
+git lfs install
+git clone <url-do-repositorio>
+```
+
+Se você já clonou o repositório antes de instalar o Git LFS:
+```bash
+git lfs pull
+```
+
 ### Dependências Python
 
 ```bash
@@ -21,7 +44,7 @@ pip install pandas numpy rasterio scikit-learn joblib tqdm geopy matplotlib geop
 
 ### Dados Necessários
 
-1. **Variáveis Bioclimáticas**: Dados do WorldClim (bio1.tif a bio19.tif)
+1. **Variáveis Bioclimáticas**: Dados do WorldClim (bio1.tif a bio19.tif) - incluídos via Git LFS
 2. **Ocorrências da Espécie**: Arquivo CSV com colunas `latitude` e `longitude`
 3. **Shapefile do Brasil**: Para aplicar máscara geográfica
 
