@@ -1,3 +1,4 @@
 clima_atual/**/*.tif filter=lfs diff=lfs merge=lfs -text
 clima_futuro/**/*.tif filter=lfs diff=lfs merge=lfs -text
-
+abelhas_extensao/clima_atual/*.tif filter=lfs diff=lfs merge=lfs -text
+abelhas_extensao/clima_futuro/**/*.tif filter=lfs diff=lfs merge=lfs -text
