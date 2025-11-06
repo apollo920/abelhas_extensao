@@ -1,3 +1,0 @@
-AUC: 0.999
-Presenças: 14777
-Ausências: 14777
