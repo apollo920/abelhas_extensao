@@ -1,0 +1,19 @@
+Guia de Interpretação dos Mapas de Adequabilidade
+1. Entendendo as Cores (A Legenda)
+Verde / Amarelo: Alta Adequabilidade. Essas são as áreas onde as condições climáticas projetadas são ideais para a sobrevivência e reprodução da Trigona spinipes. Pense nisso como "ótimos habitats futuros".
+Laranja / Vermelho: Baixa Adequabilidade. As condições climáticas nessas áreas são projetadas para serem desfavoráveis, muito quentes, muito secas, ou de alguma forma inadequadas para a espécie.
+Cores Intermediárias (Amarelo-escuro / Laranja-claro): Zonas de transição, onde a adequabilidade é moderada.
+2. Padrões Espaciais (Onde olhar?)
+Ao analisar cada mapa, preste atenção a quais biomas ou regiões do Brasil estão mais verdes ou mais vermelhas.
+
+Amazônia: É uma área de alta adequabilidade hoje? Ela permanece verde no futuro?
+Cerrado: E o "berço" da Trigona spinipes? Como ele se sai?
+Caatinga (Nordeste): Essa região é árida. A abelha perde ou ganha espaço lá?
+Sul e Sudeste: As áreas mais frias do país. Elas se tornam mais verdes com o tempo, indicando uma possível expansão para o sul?
+3. Mudanças Temporais (A Análise Mais Importante)
+A mágica acontece quando você compara os quatro mapas em sequência. Procure por três tendências principais:
+
+Expansão de Área (Range Expansion): Onde você vê áreas que eram vermelhas/laranjas no mapa anterior ficando amarelas/verdes no mapa seguinte? Isso indica que o clima está se tornando favorável em novos locais.
+Retração de Área (Range Contraction): Onde você vê áreas que eram verdes/amarelas ficando vermelhas/laranjas? Isso indica que o habitat se torna inadequado, possivelmente levando a um declínio local da espécie.
+Deslocamento (Range Shift): O "coração" da área verde (a região mais adequada) está se movendo? A tendência mais comum com o aquecimento global é um deslocamento para o sul (latitudes mais altas) e para altitudes mais elevadas (montanhas), pois a abelha busca climas mais frios.
+
