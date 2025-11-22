@@ -293,6 +293,31 @@ def analisar_perfil_latitudinal(arquivo_tif: Path):
         st.error(f"Erro ao analisar cenário futuro ({arquivo_tif.name}): {e}")
         return None
 
+def colorize_raster_interactive(data, cmap_name='RdYlGn'):
+    """
+    Aplica um colormap (default: Red-Yellow-Green) aos dados raster normalizados
+    para visualização no Folium.
+    """
+    valid_data = data[~np.isnan(data)]
+    if valid_data.size == 0:
+        return np.zeros((data.shape[0], data.shape[1], 4))
+    
+    min_val, max_val = valid_data.min(), valid_data.max()
+    
+    if max_val == min_val:
+        norm_data = np.zeros_like(data)
+    else:
+        norm_data = (data - min_val) / (max_val - min_val)
+    
+    cmap = plt.get_cmap(cmap_name)
+    colored_data = cmap(norm_data)
+    # Define alpha=0 onde for NaN
+    colored_data[np.isnan(data), 3] = 0
+    return colored_data
+
+def get_bounds(src):
+    """Obtém os limites do raster para projeção no Folium."""
+    return [[src.bounds.bottom, src.bounds.left], [src.bounds.top, src.bounds.right]]
 
 # ======================================================================
 # CARREGAMENTO INICIAL
@@ -743,78 +768,36 @@ de clima futuro (CMIP6 / SSP2-4.5). Cada período representa uma média climatol
                 )
                 continue
 
-            perfil = analisar_perfil_latitudinal(caminho)
-            if perfil is None:
-                st.warning(
-                    "Não foi possível calcular o perfil de adequabilidade para este período."
-                )
-                continue
+            # --- MAPA INTERATIVO ---
+            st.markdown("#### 🗺️ Mapa Interativo de Adequabilidade")
+            st.caption("Visualize as áreas de maior adequabilidade (verde) e menor (vermelho) com zoom dinâmico.")
+            
+            try:
+                with rasterio.open(caminho) as src:
+                    data = src.read(1)
+                    if src.nodata is not None:
+                        data = np.where(data == src.nodata, np.nan, data)
+                    else:
+                        data = np.where(data == -9999, np.nan, data) # Fallback comum
 
-            col_a, col_b, col_c, col_d = st.columns(4)
-            with col_a:
-                st.metric(
-                    "Adequabilidade média",
-                    f"{perfil['adequabilidade_media']:.2f}",
-                )
-            with col_b:
-                st.metric(
-                    "Área alta (>0,6)",
-                    f"{perfil['pct_alta']:.1f} %",
-                )
-            with col_c:
-                st.metric(
-                    "Área média (0,4–0,6)",
-                    f"{perfil['pct_media']:.1f} %",
-                )
-            with col_d:
-                st.metric(
-                    "Área baixa (≤0,4)",
-                    f"{perfil['pct_baixa']:.1f} %",
-                )
+                    img = colorize_raster_interactive(data)
+                    
+                    # Centralizar o mapa no Brasil
+                    m = folium.Map(location=[-14.2350, -51.9253], zoom_start=4)
+                    
+                    folium.raster_layers.ImageOverlay(
+                        image=img, 
+                        bounds=get_bounds(src), 
+                        opacity=0.7,
+                        name=f"Adequabilidade {periodo}"
+                    ).add_to(m)
+                    
+                    folium.LayerControl().add_to(m)
+                    
+                    st_folium(m, width=800, height=500)
 
-            st.markdown("#### 📉 Perfil latitudinal da adequabilidade")
-
-            fig_lat, ax_lat = plt.subplots(figsize=(9, 4), facecolor="none")
-            ax_lat.plot(
-                perfil["lats"],
-                perfil["means"],
-                linewidth=2.2,
-                color="#764ba2",
-            )
-            ax_lat.axvline(
-                x=perfil["lat_pico"],
-                color="#ff6b6b",
-                linestyle="--",
-                linewidth=1.8,
-                label=f"Pico ≈ {perfil['lat_pico']:.2f}°",
-            )
-            ax_lat.set_xlabel("Latitude")
-            ax_lat.set_ylabel("Adequabilidade média")
-            ax_lat.grid(True, linestyle="--", alpha=0.25)
-            ax_lat.spines["top"].set_visible(False)
-            ax_lat.spines["right"].set_visible(False)
-            ax_lat.legend()
-            st.pyplot(fig_lat, use_container_width=True)
-
-            st.markdown("#### 📊 Distribuição das classes de adequabilidade")
-
-            labels = ["Baixa", "Média", "Alta"]
-            valores = [
-                perfil["pct_baixa"],
-                perfil["pct_media"],
-                perfil["pct_alta"],
-            ]
-
-            fig_pie, ax_pie = plt.subplots(figsize=(5, 5))
-            ax_pie.pie(
-                valores,
-                labels=labels,
-                autopct="%1.1f%%",
-                startangle=140,
-                explode=[0.02, 0.02, 0.02],
-            )
-            ax_pie.axis("equal")
-            st.pyplot(fig_pie, use_container_width=False)
+            except Exception as e:
+                st.error(f"Erro ao carregar visualização do mapa para {periodo}: {e}")
 
 # ----------------------------------------------------------------------
 # ABA 5 – DESCRIÇÃO DO PROJETO (ABA SÓ DE TEXTO)
@@ -849,15 +832,13 @@ sob diferentes cenários de mudanças climáticas, permitindo:
 
 3. **Cenários climáticos futuros (CMIP6, SSP2-4.5)**
    - Modelo climático: BCC-CSM2-MR  
-   - Períodos médios: **2021–2040**, **2041–2060**, **2061–2080**, **2081–2100**  
-   - Arquivos pré-processados e recortados para o Brasil em `data/previsoes_futuras/`.
+   - Períodos médios: **2021–2040**, **2041–2060**, **2061–2080**, **2081–2100** - Arquivos pré-processados e recortados para o Brasil em `data/previsoes_futuras/`.
 
 ### 🧠 Pipeline de modelagem (Random Forest)
 
 O script `abelhas.py` realiza as etapas principais:
 
-1. **Carregamento das ocorrências**  
-   - Leitura de `ocorrencias.csv`;  
+1. **Carregamento das ocorrências** - Leitura de `ocorrencias.csv`;  
    - Filtragem de registros com coordenadas válidas;  
    - Conversão para `GeoDataFrame` com CRS WGS84 (EPSG:4326).
 
